@@ -1,4 +1,4 @@
-# Question 4: Antares Write-up
+# Question 6: Antares Write-up
 ## Main Idea
 #### (A description of the vulnerability)
 The code is vulnerable because no format string is passed into ```printf(buf)``` and we can control ```buf```. We can pass in format string specifiers into ```buf``` where we can read and write from memory and take control of the program. More specifically, we overwrite the rip of ```calibrate``` with the address of our malicious shellcode after which we get the program to do what we want it to do. 
