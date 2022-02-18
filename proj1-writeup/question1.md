@@ -1,4 +1,4 @@
-# Question 1: Spica Write-up
+# Question 1: Remus Write-up
 ## Main Idea
 #### (A description of the vulnerability)
 
